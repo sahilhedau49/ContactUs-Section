@@ -1,0 +1,70 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  align-items: center;
+  justify-content: center;
+}
+
+.time {
+  margin-bottom: 50px;
+}
+
+.item {
+  display: flex;
+  flex-direction: row;
+}
+
+.chat,
+.mail,
+.text,
+.tweet {
+  width: 180px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(28, 218, 110);
+  margin: 10px;
+  align-items: center;
+}
+
+.ichat,
+.imail,
+.itext,
+.itweet {
+  font-size: 50px;
+  margin-bottom: 15px;
+  position: absolute;
+  top: 45%;
+}
+
+.inp {
+  width: 120px;
+  height: 25px;
+}
+
+:placeholder-shown {
+  text-align: center;
+}
+
+input {
+  margin-top: 10px;
+  border: 2px solid #000;
+}
+
+p {
+  font-weight: bold;
+}
+
+.box {
+  text-align: center;
+  margin-top: 40px;
+}
